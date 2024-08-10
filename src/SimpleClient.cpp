@@ -29,7 +29,7 @@ public:
 int main(int argc, char **argv)
 {
 	CustomClient c;
-	
+
 	c.Connect("127.0.0.1", 60000);
 
 	// bool key[3] = { false, false, false };
